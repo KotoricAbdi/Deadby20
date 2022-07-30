@@ -1,0 +1,27 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #F6F6F8;
+}
+.memes{
+    width: auto;
+    height: 530px;
+    margin: 20px;
+    border: 2px solid black;
+    min-width: 200px;
+    transition: height 250ms ease-in-out;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.memes:hover{
+    height:700px;
+    transition: height 250ms ease-in-out;
+}
+@media(max-width: 40em){
+    .memes{
+        height:auto;
+    }
+ }
