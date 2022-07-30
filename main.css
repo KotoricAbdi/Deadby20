@@ -105,4 +105,20 @@ hr{
         height: auto;
         width: 30em;
     }
+    image_overlay{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 94.2%;
+    height: 40.8vh;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+}
 }
