@@ -26,10 +26,10 @@ body{
 }
 .image_overlay{
     position: absolute;
-    top: 10%;
+    top: 11%;
     left: 3%;
-    width: 94.2%;
-    height: 50.8vh;
+    width: 94%;
+    height: 45.5vh;
     background: rgba(0,0,0,0.6);
     color: #ffffff;
     border-radius: 2%;
@@ -100,9 +100,12 @@ hr{
     float: right;
 }
 
-@media (min-width: 30em){
+@media (max-width: 1000px){
     .primary-image{
         height: auto;
         width: 30em;
+    }
+    .image_overlay:hover{
+        opacity: 0;
     }
 }
