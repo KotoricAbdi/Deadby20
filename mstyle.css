@@ -16,9 +16,11 @@ body{
     justify-content: center;
     align-items: center;
 }
-.memes:hover{
-    height:700px;
-    transition: height 250ms ease-in-out;
+@media (min-width: 40em){
+    .memes:hover{
+        height:700px;
+        transition: height 250ms ease-in-out;
+    }
 }
 @media(max-width: 40em){
     .memes{
