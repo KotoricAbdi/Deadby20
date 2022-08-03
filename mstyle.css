@@ -25,7 +25,5 @@ body{
 @media(max-width: 40em){
     .memes{
         height:auto;
-        transition: none;
     }
-    
  }
