@@ -31,12 +31,7 @@ body{
     font-size: 30px;
     text-align: center;
 }
-.start:hover{
-    font-size:25px;
-    animation-name: border;
-    animation-duration: 300ms;
-    border-radius: 0%;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -45,6 +40,14 @@ hr{
     border: 3px rgb(250, 134, 95) solid;
     margin-top: 30px;
     width: 100%;
+}
+@media (min-width: 1000px){
+    .start:hover{
+        font-size:25px;
+        animation-name: border1;
+        animation-duration: 300ms;
+        border-radius: 0%;
+    }
 }
 @keyframes border{
     0%{
@@ -84,6 +87,7 @@ hr{
         width: 6em;
         padding: 10px;
         border: 15px rgb(250, 134, 95) dashed;
+        animation: none;
     }
     p{
         font-size: 2em;
