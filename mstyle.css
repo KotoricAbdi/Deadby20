@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-@media (min-width: 40em){
+@media (min-width: 1000px){
     .memes:hover{
         height:700px;
         transition: height 250ms ease-in-out;
